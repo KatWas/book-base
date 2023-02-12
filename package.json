@@ -1,0 +1,26 @@
+{
+  "name": "bookdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "mysql2": "^2.3.3",
+    "prisma": "^4.5.0"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}
