@@ -12,6 +12,8 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
     "cors": "^2.8.5",
+    "nestjs": "^0.0.1",
+    "prisma-client": "^0.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },

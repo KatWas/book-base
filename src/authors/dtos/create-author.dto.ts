@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsString, Length } from 'class-validator';
 
-export class UpdateAuthorDTO {
+export class CreateAuthorDTO {
   @IsNotEmpty()
   @IsString()
   @Length(3, 100)
